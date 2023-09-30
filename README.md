@@ -1,7 +1,7 @@
 
 # CodSoft Projects by Kush Anand
 
-Done all the task assigned to me
+Done all the task assigned to me in my internship
 
     1) PortFolio
     
