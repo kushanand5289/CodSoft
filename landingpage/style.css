@@ -35,14 +35,14 @@ nav ul li a {
 }
 
 #hero {
-    background: url(https://th.bing.com/th/id/OIP.hhZkjNa3s-ZtVxkC1Q5nFwHaEK?pid=ImgDet&rs=1) no-repeat center center/cover;
+    background: url(https://i.pinimg.com/originals/ae/41/db/ae41db0d1dcb9eea71707ec56d14d209.jpg) no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 0;
 }
 
 .about-section {
-    background: url('about-bg.jpg') no-repeat center center/cover;
+    background: url(https://th.bing.com/th/id/OIP.EwbatycHx_915hcNzd7vRgHaE8?pid=ImgDet&rs=1) no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -54,6 +54,7 @@ nav ul li a {
     background-color: #f9f9f9;
     padding: 50px 0;
     text-align: center;
+    color:#333
 }
 
 .class-card,
@@ -86,12 +87,29 @@ button:hover {
     background-color: #45a049;
 }
 
+#contact {
+    text-align: center;
+    padding: 100px 0; /* Add padding to the contact section to center it vertically */
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center contact info horizontally */
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
+    padding: 20px 0; /* Increase padding for the footer */
     width: 100%;
+    position: relative;
+    bottom: 0;
 }
